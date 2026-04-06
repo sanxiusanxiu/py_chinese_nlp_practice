@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 import re
 
 # 读取文本文件
-with open("input/二十大报告.txt", "r", encoding="utf-8") as f:
+with open("data/二十大报告.txt", "r", encoding="utf-8") as f:
     text = f.read()
 # 读取中文停用词表
-with open("input/stopwords.txt", "r", encoding="utf-8") as f:
+with open("data/stopwords.txt", "r", encoding="utf-8") as f:
     stopwords = f.read()
 
 # 分词
